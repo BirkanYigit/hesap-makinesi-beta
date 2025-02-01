@@ -10,6 +10,7 @@ body {
 }
 
 #calculator-frame {
+    position: relative;
     width: 340px;
     background-color: rgba(32,32,32,255);
     border-radius: 5px;
@@ -189,9 +190,9 @@ body {
     background-color: rgba(34,34,34,255);
     z-index: 1;
     width: 340px;
-    height: 294px;
+    height: 296px;
     position: absolute;
-    bottom: 212px;
+    bottom: 0;
     border-radius: 5px;
     padding: 14px 2px 10px 2px;
     overflow: auto;
